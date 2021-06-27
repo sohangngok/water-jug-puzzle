@@ -1,0 +1,36 @@
+#index-content {
+  background-image:-webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(219, 239, 243)),
+    color-stop(0.51, rgb(10, 165, 192))
+  );
+  display: flex;
+  flex-flow: column;
+}
+
+.records-title {
+  font-size: 30px;
+  margin: 5px;
+  text-align: center;
+}
+
+#records-content {
+  font-size: 21px;
+  /* padding: 0 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 200px; */
+  text-align: left;
+  overflow-y: scroll;
+}
+
+td {
+  padding: 0 0px 5px 0;
+}
+
+td:last-child {
+  text-align: right;
+  padding: 0 0 0px 15px;
+}

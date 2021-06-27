@@ -1,0 +1,26 @@
+{
+  "code": 8,
+  "title": "8L 8L 5L 3L ➡ 4L 4L",
+  "target_message": "Target: 4L in each 8L jug",
+  "targets": [
+    [4, 4, null, null]
+  ],
+  "jugs": [
+    {
+      "volume": 8,
+      "current": 8
+    },
+    {
+      "volume": 8,
+      "current": 8
+    },
+    {
+      "volume": 5,
+      "current": 0
+    },
+    {
+      "volume": 3,
+      "current": 0
+    }
+  ]
+}

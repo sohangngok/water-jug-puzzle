@@ -1,0 +1,26 @@
+{
+  "code": 10,
+  "title": "10L 10L 10L 9L ➡ 1L 4L",
+  "target_message": "Target: 1L in any 10L jug and 4L in 9L jug<br>(hard)",
+  "targets": [
+    [1, null, null, 4], [null, 1, null, 4], [null, null, 1, 4]
+  ],
+  "jugs": [
+    {
+      "volume": 10,
+      "current": 10
+    },
+    {
+      "volume": 10,
+      "current": 10
+    },
+    {
+      "volume": 10,
+      "current": 0
+    },
+    {
+      "volume": 9,
+      "current": 0
+    }
+  ]
+}

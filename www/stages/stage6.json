@@ -1,0 +1,22 @@
+{
+  "code": 6,
+  "title": "13L 9L 4L ➡ 2L",
+  "target_message": "Target: 2L",
+  "targets": [
+    [2, null, null], [null, 2, null], [null, null, 2]
+  ],
+  "jugs": [
+    {
+      "volume": 13,
+      "current": 13
+    },
+    {
+      "volume": 9,
+      "current": 0
+    },
+    {
+      "volume": 4,
+      "current": 0
+    }
+  ]
+}

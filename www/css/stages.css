@@ -1,0 +1,31 @@
+#index-content {
+  background-image:-webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, rgb(219, 239, 243)),
+    color-stop(0.51, rgb(10, 165, 192))
+  );
+  
+  display: flex;
+  flex-flow: column;
+}
+
+.list {
+  overflow-y: scroll;
+  flex-grow : 1;
+}
+
+.stage-button{
+  text-align:center;
+  margin:20px;
+  padding:15px;
+  border:solid;
+  border-radius: 20px;
+  border-width:1px;
+  border-color:#0054a6;
+  background:#0072bc;
+  color:#ffffff;
+  font-family:"Calibri";
+  font-size: calc(21px + 1vw); /*27px*/
+}
